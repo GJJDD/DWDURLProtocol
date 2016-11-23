@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396D1FBD1DE56FCF00E78CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1FBC1DE56FCF00E78CF4 /* main.m */; };
+		396D1FC01DE56FCF00E78CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1FBF1DE56FCF00E78CF4 /* AppDelegate.m */; };
+		396D1FC31DE56FCF00E78CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1FC21DE56FCF00E78CF4 /* ViewController.m */; };
+		396D1FC61DE56FCF00E78CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D1FC41DE56FCF00E78CF4 /* Main.storyboard */; };
+		396D1FC81DE56FCF00E78CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396D1FC71DE56FCF00E78CF4 /* Assets.xcassets */; };
+		396D1FCB1DE56FCF00E78CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D1FC91DE56FCF00E78CF4 /* LaunchScreen.storyboard */; };
+		396D1FD61DE56FCF00E78CF4 /* DWDURLProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1FD51DE56FCF00E78CF4 /* DWDURLProtocolTests.m */; };
+		396D1FE11DE56FCF00E78CF4 /* DWDURLProtocolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1FE01DE56FCF00E78CF4 /* DWDURLProtocolUITests.m */; };
+		396D1FF21DE56FDF00E78CF4 /* DWDAdFiltRuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1FEF1DE56FDF00E78CF4 /* DWDAdFiltRuleManager.m */; };
+		396D1FF31DE56FDF00E78CF4 /* DWDURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1FF11DE56FDF00E78CF4 /* DWDURLProtocol.m */; };
+		396D1FF51DE5701200E78CF4 /* adFilt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 396D1FF41DE5701200E78CF4 /* adFilt.plist */; };
+		396D1FF81DE570DC00E78CF4 /* NSString+DWDDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D1FF71DE570DC00E78CF4 /* NSString+DWDDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396D1FD21DE56FCF00E78CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396D1FB01DE56FCF00E78CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396D1FB71DE56FCF00E78CF4;
+			remoteInfo = DWDURLProtocol;
+		};
+		396D1FDD1DE56FCF00E78CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396D1FB01DE56FCF00E78CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396D1FB71DE56FCF00E78CF4;
+			remoteInfo = DWDURLProtocol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		396D1FB81DE56FCF00E78CF4 /* DWDURLProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWDURLProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D1FBC1DE56FCF00E78CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		396D1FBE1DE56FCF00E78CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		396D1FBF1DE56FCF00E78CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		396D1FC11DE56FCF00E78CF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		396D1FC21DE56FCF00E78CF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		396D1FC51DE56FCF00E78CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		396D1FC71DE56FCF00E78CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		396D1FCA1DE56FCF00E78CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		396D1FCC1DE56FCF00E78CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D1FD11DE56FCF00E78CF4 /* DWDURLProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWDURLProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D1FD51DE56FCF00E78CF4 /* DWDURLProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWDURLProtocolTests.m; sourceTree = "<group>"; };
+		396D1FD71DE56FCF00E78CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D1FDC1DE56FCF00E78CF4 /* DWDURLProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWDURLProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D1FE01DE56FCF00E78CF4 /* DWDURLProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWDURLProtocolUITests.m; sourceTree = "<group>"; };
+		396D1FE21DE56FCF00E78CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D1FEE1DE56FDF00E78CF4 /* DWDAdFiltRuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDAdFiltRuleManager.h; sourceTree = "<group>"; };
+		396D1FEF1DE56FDF00E78CF4 /* DWDAdFiltRuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDAdFiltRuleManager.m; sourceTree = "<group>"; };
+		396D1FF01DE56FDF00E78CF4 /* DWDURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDURLProtocol.h; sourceTree = "<group>"; };
+		396D1FF11DE56FDF00E78CF4 /* DWDURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDURLProtocol.m; sourceTree = "<group>"; };
+		396D1FF41DE5701200E78CF4 /* adFilt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = adFilt.plist; sourceTree = "<group>"; };
+		396D1FF61DE570DC00E78CF4 /* NSString+DWDDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DWDDevice.h"; sourceTree = "<group>"; };
+		396D1FF71DE570DC00E78CF4 /* NSString+DWDDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DWDDevice.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396D1FB51DE56FCF00E78CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1FCE1DE56FCF00E78CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1FD91DE56FCF00E78CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396D1FAF1DE56FCF00E78CF4 = {
+			isa = PBXGroup;
+			children = (
+				396D1FBA1DE56FCF00E78CF4 /* DWDURLProtocol */,
+				396D1FD41DE56FCF00E78CF4 /* DWDURLProtocolTests */,
+				396D1FDF1DE56FCF00E78CF4 /* DWDURLProtocolUITests */,
+				396D1FB91DE56FCF00E78CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396D1FB91DE56FCF00E78CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396D1FB81DE56FCF00E78CF4 /* DWDURLProtocol.app */,
+				396D1FD11DE56FCF00E78CF4 /* DWDURLProtocolTests.xctest */,
+				396D1FDC1DE56FCF00E78CF4 /* DWDURLProtocolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396D1FBA1DE56FCF00E78CF4 /* DWDURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				396D1FF41DE5701200E78CF4 /* adFilt.plist */,
+				396D1FBE1DE56FCF00E78CF4 /* AppDelegate.h */,
+				396D1FBF1DE56FCF00E78CF4 /* AppDelegate.m */,
+				396D1FC11DE56FCF00E78CF4 /* ViewController.h */,
+				396D1FC21DE56FCF00E78CF4 /* ViewController.m */,
+				396D1FEE1DE56FDF00E78CF4 /* DWDAdFiltRuleManager.h */,
+				396D1FEF1DE56FDF00E78CF4 /* DWDAdFiltRuleManager.m */,
+				396D1FF01DE56FDF00E78CF4 /* DWDURLProtocol.h */,
+				396D1FF11DE56FDF00E78CF4 /* DWDURLProtocol.m */,
+				396D1FF61DE570DC00E78CF4 /* NSString+DWDDevice.h */,
+				396D1FF71DE570DC00E78CF4 /* NSString+DWDDevice.m */,
+				396D1FC41DE56FCF00E78CF4 /* Main.storyboard */,
+				396D1FC71DE56FCF00E78CF4 /* Assets.xcassets */,
+				396D1FC91DE56FCF00E78CF4 /* LaunchScreen.storyboard */,
+				396D1FCC1DE56FCF00E78CF4 /* Info.plist */,
+				396D1FBB1DE56FCF00E78CF4 /* Supporting Files */,
+			);
+			path = DWDURLProtocol;
+			sourceTree = "<group>";
+		};
+		396D1FBB1DE56FCF00E78CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396D1FBC1DE56FCF00E78CF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		396D1FD41DE56FCF00E78CF4 /* DWDURLProtocolTests */ = {
+			isa = PBXGroup;
+			children = (
+				396D1FD51DE56FCF00E78CF4 /* DWDURLProtocolTests.m */,
+				396D1FD71DE56FCF00E78CF4 /* Info.plist */,
+			);
+			path = DWDURLProtocolTests;
+			sourceTree = "<group>";
+		};
+		396D1FDF1DE56FCF00E78CF4 /* DWDURLProtocolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				396D1FE01DE56FCF00E78CF4 /* DWDURLProtocolUITests.m */,
+				396D1FE21DE56FCF00E78CF4 /* Info.plist */,
+			);
+			path = DWDURLProtocolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396D1FB71DE56FCF00E78CF4 /* DWDURLProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D1FE51DE56FCF00E78CF4 /* Build configuration list for PBXNativeTarget "DWDURLProtocol" */;
+			buildPhases = (
+				396D1FB41DE56FCF00E78CF4 /* Sources */,
+				396D1FB51DE56FCF00E78CF4 /* Frameworks */,
+				396D1FB61DE56FCF00E78CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWDURLProtocol;
+			productName = DWDURLProtocol;
+			productReference = 396D1FB81DE56FCF00E78CF4 /* DWDURLProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		396D1FD01DE56FCF00E78CF4 /* DWDURLProtocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D1FE81DE56FCF00E78CF4 /* Build configuration list for PBXNativeTarget "DWDURLProtocolTests" */;
+			buildPhases = (
+				396D1FCD1DE56FCF00E78CF4 /* Sources */,
+				396D1FCE1DE56FCF00E78CF4 /* Frameworks */,
+				396D1FCF1DE56FCF00E78CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396D1FD31DE56FCF00E78CF4 /* PBXTargetDependency */,
+			);
+			name = DWDURLProtocolTests;
+			productName = DWDURLProtocolTests;
+			productReference = 396D1FD11DE56FCF00E78CF4 /* DWDURLProtocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		396D1FDB1DE56FCF00E78CF4 /* DWDURLProtocolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D1FEB1DE56FCF00E78CF4 /* Build configuration list for PBXNativeTarget "DWDURLProtocolUITests" */;
+			buildPhases = (
+				396D1FD81DE56FCF00E78CF4 /* Sources */,
+				396D1FD91DE56FCF00E78CF4 /* Frameworks */,
+				396D1FDA1DE56FCF00E78CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396D1FDE1DE56FCF00E78CF4 /* PBXTargetDependency */,
+			);
+			name = DWDURLProtocolUITests;
+			productName = DWDURLProtocolUITests;
+			productReference = 396D1FDC1DE56FCF00E78CF4 /* DWDURLProtocolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396D1FB01DE56FCF00E78CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dianwoda;
+				TargetAttributes = {
+					396D1FB71DE56FCF00E78CF4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+					};
+					396D1FD01DE56FCF00E78CF4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 396D1FB71DE56FCF00E78CF4;
+					};
+					396D1FDB1DE56FCF00E78CF4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 396D1FB71DE56FCF00E78CF4;
+					};
+				};
+			};
+			buildConfigurationList = 396D1FB31DE56FCF00E78CF4 /* Build configuration list for PBXProject "DWDURLProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396D1FAF1DE56FCF00E78CF4;
+			productRefGroup = 396D1FB91DE56FCF00E78CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396D1FB71DE56FCF00E78CF4 /* DWDURLProtocol */,
+				396D1FD01DE56FCF00E78CF4 /* DWDURLProtocolTests */,
+				396D1FDB1DE56FCF00E78CF4 /* DWDURLProtocolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396D1FB61DE56FCF00E78CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D1FCB1DE56FCF00E78CF4 /* LaunchScreen.storyboard in Resources */,
+				396D1FC81DE56FCF00E78CF4 /* Assets.xcassets in Resources */,
+				396D1FF51DE5701200E78CF4 /* adFilt.plist in Resources */,
+				396D1FC61DE56FCF00E78CF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1FCF1DE56FCF00E78CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1FDA1DE56FCF00E78CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396D1FB41DE56FCF00E78CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D1FC31DE56FCF00E78CF4 /* ViewController.m in Sources */,
+				396D1FF81DE570DC00E78CF4 /* NSString+DWDDevice.m in Sources */,
+				396D1FC01DE56FCF00E78CF4 /* AppDelegate.m in Sources */,
+				396D1FBD1DE56FCF00E78CF4 /* main.m in Sources */,
+				396D1FF31DE56FDF00E78CF4 /* DWDURLProtocol.m in Sources */,
+				396D1FF21DE56FDF00E78CF4 /* DWDAdFiltRuleManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1FCD1DE56FCF00E78CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D1FD61DE56FCF00E78CF4 /* DWDURLProtocolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D1FD81DE56FCF00E78CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D1FE11DE56FCF00E78CF4 /* DWDURLProtocolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396D1FD31DE56FCF00E78CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396D1FB71DE56FCF00E78CF4 /* DWDURLProtocol */;
+			targetProxy = 396D1FD21DE56FCF00E78CF4 /* PBXContainerItemProxy */;
+		};
+		396D1FDE1DE56FCF00E78CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396D1FB71DE56FCF00E78CF4 /* DWDURLProtocol */;
+			targetProxy = 396D1FDD1DE56FCF00E78CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396D1FC41DE56FCF00E78CF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396D1FC51DE56FCF00E78CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		396D1FC91DE56FCF00E78CF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396D1FCA1DE56FCF00E78CF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396D1FE31DE56FCF00E78CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		396D1FE41DE56FCF00E78CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396D1FE61DE56FCF00E78CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDURLProtocol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDURLProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		396D1FE71DE56FCF00E78CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDURLProtocol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDURLProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		396D1FE91DE56FCF00E78CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDURLProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDURLProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWDURLProtocol.app/DWDURLProtocol";
+			};
+			name = Debug;
+		};
+		396D1FEA1DE56FCF00E78CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDURLProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDURLProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWDURLProtocol.app/DWDURLProtocol";
+			};
+			name = Release;
+		};
+		396D1FEC1DE56FCF00E78CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDURLProtocolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDURLProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWDURLProtocol;
+			};
+			name = Debug;
+		};
+		396D1FED1DE56FCF00E78CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = DWDURLProtocolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.DWDURLProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DWDURLProtocol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396D1FB31DE56FCF00E78CF4 /* Build configuration list for PBXProject "DWDURLProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D1FE31DE56FCF00E78CF4 /* Debug */,
+				396D1FE41DE56FCF00E78CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396D1FE51DE56FCF00E78CF4 /* Build configuration list for PBXNativeTarget "DWDURLProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D1FE61DE56FCF00E78CF4 /* Debug */,
+				396D1FE71DE56FCF00E78CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396D1FE81DE56FCF00E78CF4 /* Build configuration list for PBXNativeTarget "DWDURLProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D1FE91DE56FCF00E78CF4 /* Debug */,
+				396D1FEA1DE56FCF00E78CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396D1FEB1DE56FCF00E78CF4 /* Build configuration list for PBXNativeTarget "DWDURLProtocolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D1FEC1DE56FCF00E78CF4 /* Debug */,
+				396D1FED1DE56FCF00E78CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396D1FB01DE56FCF00E78CF4 /* Project object */;
+}
